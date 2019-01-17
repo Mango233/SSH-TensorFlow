@@ -22,6 +22,7 @@ This code is modified from [tf-faster-rcnn](https://github.com/endernewton/tf-fa
 ### WIDER Face Eval result
 
 SSH eval result without using an image pyramid between different backbones:
+
 | backbone |  easy | medium | hard | inference time(GTX 1060) | training method |
 |:-------|:-----:|:-----:|:-----:|-------:|-------:|
 |  VGG16 | 0.908 | 0.885 | 0.746 | 56ms(400x600) | random training |
