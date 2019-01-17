@@ -207,6 +207,6 @@ MIT LICENSE
 - [ ] Add facial landmarks detection to SSH
 
 ### References
-1. SSH: Single Stage Headless Face Detector(https://arxiv.org/pdf/1708.03979.pdf).Mahyar Najibi, Pouya Samangouei, Rama Chellappa, Larry S. Davis.ICCV 2017.
+1. SSH: Single Stage Headless Face Detector(https://arxiv.org/pdf/1708.03979.pdf). Mahyar Najibi, Pouya Samangouei, Rama Chellappa, Larry S. Davis.ICCV 2017.
 2. [tf-faster-rcnn](https://github.com/endernewton/tf-faster-rcnn)
 3. [SSH(offical)](https://github.com/mahyarnajibi/SSH)
