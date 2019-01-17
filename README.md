@@ -44,7 +44,7 @@ demo_result(MobileNetV1_SSH result):
 ### Contents
 
 1. [Installation](#installation)
-2. [Setup data](#setup data)
+2. [Setup_data](#setup_data)
 3. [Training](#training)
 4. [Evaluation](#evaluation)
 5. [Demo](#demo)
