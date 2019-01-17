@@ -84,20 +84,15 @@ demo_result(MobileNetV1_SSH result):
 
 ## Setup_data
 Generate your own annotation file from WIDER FACE dataset(eliminate the invalid data that x <=0 or y <=0 or w <=0 or h <= 0).
-One row for one image; 
-
-Row format: `image_file_path box1 box2 ... boxN`;
-
-Box format: `x_min y_min x_max y_max`.
-
+One row for one image;  
+Row format: `image_file_path box1 box2 ... boxN`;  
+Box format: `x_min y_min x_max y_max`.  
 Here is an example:
-
     ```
     0--Parade/0_Parade_marchingband_1_849 449.0 330.0 570.0 478.0
     0--Parade/0_Parade_Parade_0_904 361.0 98.0 623.0 436.0
     ...
     ```
- 
 Or you can use my annotation files `wider_face_train.txt` and `wider_face_val.txt` under the folder ``data/`` directly.
 And you should have a directory structure as follows:
 ```
@@ -214,4 +209,4 @@ MIT LICENSE
 ### References
 1. SSH: Single Stage Headless Face Detector(https://arxiv.org/pdf/1708.03979.pdf). Mahyar Najibi, Pouya Samangouei, Rama Chellappa, Larry S. Davis.ICCV 2017.
 2. [tf-faster-rcnn](https://github.com/endernewton/tf-faster-rcnn)
-3. [SSH(offical)](https://github.com/mahyarnajibi/SSH)implementation of SSH
+3. [SSH(offical)](https://github.com/mahyarnajibi/SSH)
