@@ -94,6 +94,7 @@ Generate your own annotation file from WIDER FACE dataset(eliminate the invalid 
     0--Parade/0_Parade_Parade_0_904 361.0 98.0 623.0 436.0
     ...
     ```
+    
 Or you can use my annotation files `wider_face_train.txt` and `wider_face_val.txt` under the folder ``data/`` directly.
 And you should have a directory structure as follows:  
 ```
@@ -106,6 +107,7 @@ data
              |--Annotations/
              |--images/ 
 ```
+
 Or you can follow the instructions of py-faster-rcnn [here](https://github.com/rbgirshick/py-faster-rcnn#beyond-the-demo-installation-for-training-and-testing-models) to setup WIDER Face datasets. The steps involve downloading data and optionally creating soft links in the ``data/`` folder. 
 If you find it useful, the ``data/cache`` folder created on my side is also shared [here](https://drive.google.com/open?id=1L7QpZm5qVgGO8HtDvQbrFcfTIoGY4Jzh).
 
