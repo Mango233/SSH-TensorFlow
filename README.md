@@ -83,6 +83,7 @@ demo_result(MobileNetV1_SSH result):
   ```
 
 ## Setup_data
+
 Generate your own annotation file from WIDER FACE dataset(eliminate the invalid data that x <=0 or y <=0 or w <=0 or h <= 0).
     One row for one image;  
     Row format: `image_file_path box1 box2 ... boxN`;  
