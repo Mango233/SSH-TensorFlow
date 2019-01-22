@@ -84,10 +84,10 @@ demo_result(MobileNetV1_SSH result):
 
 ## Setup_data
 Generate your own annotation file from WIDER FACE dataset(eliminate the invalid data that x <=0 or y <=0 or w <=0 or h <= 0).
-One row for one image;  
-Row format: `image_file_path box1 box2 ... boxN`;  
-Box format: `x_min y_min x_max y_max`.  
-Here is an example:
+    One row for one image;  
+    Row format: `image_file_path box1 box2 ... boxN`;  
+    Box format: `x_min y_min x_max y_max`.  
+    Here is an example:
     ```
     0--Parade/0_Parade_marchingband_1_849 449.0 330.0 570.0 478.0
     0--Parade/0_Parade_Parade_0_904 361.0 98.0 623.0 436.0
