@@ -90,13 +90,11 @@ Generate your own annotation file from WIDER FACE dataset(eliminate the invalid 
     Box format: `x_min y_min x_max y_max`.  
     Here is an example:  
     ```
-    
     0--Parade/0_Parade_marchingband_1_849 449.0 330.0 570.0 478.0  
     
     0--Parade/0_Parade_Parade_0_904 361.0 98.0 623.0 436.0  
     
     ...
-    
     ```
     
 Or you can use my annotation files `wider_face_train.txt` and `wider_face_val.txt` under the folder ``data/`` directly.
