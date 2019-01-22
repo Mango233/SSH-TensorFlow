@@ -91,7 +91,9 @@ Generate your own annotation file from WIDER FACE dataset(eliminate the invalid 
     Here is an example:  
     ```
     0--Parade/0_Parade_marchingband_1_849 449.0 330.0 570.0 478.0  
+    
     0--Parade/0_Parade_Parade_0_904 361.0 98.0 623.0 436.0  
+    
     ...
     ```
     
